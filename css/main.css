@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Raleway;
+    background: #fcfcfc;
+    color: #333;
+    line-height: 1.6;
+}
+h1 {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 20px;
+    background: rgb(189, 118, 52);
+    color: white;
+    width: 150px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 8px 8px #333;
+} 
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 12px;
+}
+
+.box_shadow {
+    box-shadow: 5px 5px #333;
+}
+
+/* Navbar */
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 20px;
+    z-index: 10;
+    background: #fcfcfc;
+}
+
+.navbar h1 {
+    font-family: AmoretScriptAlt;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+    padding: 0px 30px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul a {
+    padding: 10px 0px;
+    margin: 0px 10px;
+}
+
+.navbar ul .insta-logo::after {
+    display: none;
+}
+
+.navbar ul a:hover {
+    opacity: 0.5;
+}
+
+/* Hero */
+
+#hero .hero_grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+#hero .hero_left {
+    padding: 0;
+}
+
+#hero .hero_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero_right .hero_right_content {
+    width: 300px;
+    height: auto;
+
+}
+
+/* Contact */ 
+
+#contact .contact_grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#contact .contact_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .contact_left_content {
+    width: 300px;
+    height: auto;
+}
+
+#contact .contact_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .contact_right_content {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+
+#contact form .form_input {
+    padding: 10px;
+    width: 200px;
+    border: #333 1px solid;
+    border-radius: 3px;
+}
+
+#contact form .form_group {
+    margin-top: 20px;
+}
+
+#contact form .message {
+    border: #333 1px solid;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+#contact form .btn {
+    border: none;
+    font-family: Raleway;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    background: #333;
+    text-align: center;
+    color: white;
+}
