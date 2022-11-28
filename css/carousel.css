@@ -77,3 +77,85 @@
 .is-hidden {
     display: none;
 }
+
+/* Carousel 02 */
+
+.carousel02 {
+    position: relative;
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel_image02 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel_track-container02 {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.carousel_track02 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 100%;
+    position: relative;
+    transition: transform 250ms ease-in;
+}
+
+.carousel_slide02 {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+}
+
+.carousel_button02 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+}
+
+.carousel_button--left02 {
+    left: -30px;
+}
+
+.carousel_button--right02 {
+    right: -30px;
+}
+
+.carousel_button02 img {
+    width: 10px;
+}
+
+.carousel_nav02 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.carousel_indicator02 {
+    border: 0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 0, 0, 0.3);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel_indicator02.current-slide02 {
+    background: rgb(0, 0, 0, 0.75);
+}
+
+.is-hidden02 {
+    display: none;
+}

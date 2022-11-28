@@ -1,0 +1,27 @@
+span {
+    font-weight: 500;
+}
+
+.kittens_grid {
+    display: grid;
+    grid-template-columns: 0.75fr 1fr;
+    height: 500px;
+}
+
+.kittens_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.kittens_carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#kitten_1 {
+    padding-top: 50px;
+}
