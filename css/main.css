@@ -217,6 +217,10 @@ a {
     padding: 10px 20px;
 }
 
+#contact a {
+    margin: 5px 10px;
+}
+
 /* Info */
 
 #info {

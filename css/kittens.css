@@ -16,6 +16,10 @@ span {
     justify-content: center;
 }
 
+.kittens_info p {
+    text-align: center;
+}
+
 .kittens_carousel {
     display: flex;
     flex-direction: column;
