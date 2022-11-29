@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/kittens.css">
     <link rel="stylesheet" href="../css/carousel.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="menu.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="../css/menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +17,7 @@
 <body>
     <header>
         <nav class="navbar">
+            <div class="navbar_wrapper">
             <a href="home.html"><h1>Rags n' Wags</h1></a>
             <ul>
                 <li><a href="kittens.html">Kittens</a></li>
@@ -25,15 +26,35 @@
                 <li><a href="home.html">Parents</a></li>
                 <li><a class="insta-logo" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
             </ul>
+            </div>
+            <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div id="menu" class="menu">
+                  <div>
+                    <div>
+                      <ul>
+                        <li><a href="home.html"><h1>Rags n' Wags</h1></a></li>
+                        <li><a href="kittens.html">Kittens</a></li>
+                        <li><a href="home.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="home.html">Parents</a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </nav>
     </header>
-    <section id="kitten_1">
+    <section id="kitten_1" class="kitten">
         <div class="container">
             <div class="kittens_grid">
                 <div class="kittens_info">
                     <h2>Puff</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, tempora laboriosam. Aperiam et quod porro. Hic iste saepe dolorem ipsum dolor necessitatibus laudantium animi recusandae nesciunt maxime vel esse, molestiae, in illum itaque voluptatum. Enim perspiciatis exercitationem odit fuga blanditiis!</p>
-                    <p>Price: <span>$2000</span></p>
+                    <p>Seal Pointed Lynx</p>
+                    <p>Born Oct. 14th and ready Dec. 15 - 24 to the right home</p>
+                    <p>Price: <span>$2000 with contract</span></p>
                     <a href="contact.html" class="btn">Contact Us!</a>
                 </div>
                 <div class="kittens_carousel">
@@ -67,13 +88,14 @@
             </div>
         </div>
     </section>
-    <section id="kitten_2">
+    <section id="kitten_2" class="kitten">
         <div class="container">
             <div class="kittens_grid">
                 <div class="kittens_info">
                     <h2>Bernie</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, tempora laboriosam. Aperiam et quod porro. Hic iste saepe dolorem ipsum dolor necessitatibus laudantium animi recusandae nesciunt maxime vel esse, molestiae, in illum itaque voluptatum. Enim perspiciatis exercitationem odit fuga blanditiis!</p>
-                    <p>Price: <span>$2000</span></p>
+                    <p>Mitted Blue Point/Bicolor</p>
+                    <p>Born Oct. 14th and ready Dec. 15 - 24 to the right home</p>
+                    <p>Price: <span>$2000 with contract</span></p>
                     <a href="contact.html" class="btn">Contact Us!</a>
                 </div>
                 <div class="kittens_carousel">
@@ -107,13 +129,14 @@
             </div>
         </div>
     </section>
-    <section id="kitten_3">
+    <section id="kitten_3" class="kitten">
         <div class="container">
             <div class="kittens_grid">
                 <div class="kittens_info">
                     <h2>Cleo</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, tempora laboriosam. Aperiam et quod porro. Hic iste saepe dolorem ipsum dolor necessitatibus laudantium animi recusandae nesciunt maxime vel esse, molestiae, in illum itaque voluptatum. Enim perspiciatis exercitationem odit fuga blanditiis!</p>
-                    <p>Price: <span>$2000</span></p>
+                    <p>Mitted Blue Point/Bicolor</p>
+                    <p>Born Oct. 14th and ready Dec. 15 - 24 to the right home</p>
+                    <p>Price: <span>$2000 with contract</span></p>
                     <a href="contact.html" class="btn">Contact Us!</a>
                 </div>
                 <div class="kittens_carousel">

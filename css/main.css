@@ -21,7 +21,12 @@ h2 {
     font-weight: 900;
     font-size: 25px;
     line-height: 1.2;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+span {
+    font-weight: 600;
+    font-size: 18px;
 }
 
 ul {
@@ -68,23 +73,32 @@ a {
     box-shadow: 5px 5px #333;
 }
 
+.menu-wrap {
+    display: none;
+}
+
 /* Navbar */
 
 .navbar {
     position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100vw;
     padding: 20px;
     z-index: 10;
     background: #fcfcfc;
 }
 
+.navbar_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navbar h1 {
     font-family: AmoretScriptAlt;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 3px;
     margin-bottom: 0px;
     padding: 0px 30px;
@@ -221,6 +235,10 @@ a {
     align-items: center;
 }
 
+#info a {
+    margin-top: 20px;
+}
+
 /* Gallery */
 
 #gallery {
@@ -301,4 +319,121 @@ footer {
     background: #333;
     text-align: center;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .navbar_wrapper {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .btn {
+        width: 200px;
+    }
+
+    h1 {
+        margin-bottom: 0px;
+    }
+
+    /* Mobile Navbar */
+
+    /* .navbar {
+        display: ;
+    } */
+
+    /* Mobile Hero */
+
+    #hero .hero_grid {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 12px;
+    }
+
+    #hero .hero_left {
+        display: none;
+    }
+
+     /* Mobile Contact */
+
+    #contact {
+        margin-bottom: 100px;
+    }
+
+    #contact .contact_grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact .contact_left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact .contact_right_content {
+        padding: 0px 12px;
+        width: 100%;
+        height: auto;
+    }
+
+    #contact .contact_right_content form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contact .form_group {
+        width: 100%;
+    }
+
+    #contact form .form_input {
+        width: 100%;
+    }
+
+    #contact .form_submit {
+        align-self: center;
+    }
+
+     /* Mobile Gallery */
+
+    #gallery .gallery_grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #gallery .grid_item {
+        height: 300px;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+
+    /* Mobile Parents */
+
+    #parents .parents_grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #parents img {
+        margin: 20px 0;
+        object-fit: cover;
+        height: 300px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    #parents h2 {
+        margin-bottom: 0px;
+    }
+
+    /* Kittens Page */
+
+    
 }

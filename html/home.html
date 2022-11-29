@@ -7,7 +7,7 @@
     <title>Rags n' Wags</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/carousel.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="menu.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="../css/menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +16,7 @@
 <body>
     <header>
         <nav class="navbar">
+            <div class="navbar_wrapper">
             <a href="home.html"><h1>Rags n' Wags</h1></a>
             <ul>
                 <li><a href="kittens.html">Kittens</a></li>
@@ -24,6 +25,25 @@
                 <li><a href="#parents">Parents</a></li>
                 <li><a class="insta-logo" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
             </ul>
+            </div>
+            <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div id="menu" class="menu">
+                  <div>
+                    <div>
+                      <ul>
+                        <li><a href=""><h1>Rags n' Wags</h1></a></li>
+                        <li><a href="kittens.html">Kittens</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#parents">Parents</a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </nav>
     </header>
     <section id="hero">
@@ -33,9 +53,9 @@
                 <div class="hero_right">
                     <div class="hero_right_content">
                         <h1>Welcome to Rags n' Wags!</h1>
-                        <p>Lorem ipsum dolor sit.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, reiciendis!</p>
-                        <a class="btn" href="cats.html">Click</a>
+                        <p>Proudly offering cat lovers the sweatest of all cats, the Ragdoll</p>
+                        <p>Please check out the kittens we currently have for sale!</p>
+                        <a class="btn" href="kittens.html">Kittens</a>
                     </div>
                 </div>
             </div>
@@ -47,7 +67,7 @@
                 <div class="contact_left">
                     <div class="contact_left_content">
                         <h1>Contact Us</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, reiciendis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, harum.</p>
+                        <p>If you are interested in a kitten from Rags n' Wags please get in touch with us through the form below!</p>
                     </div>
                 </div>
                 <div class="contact_right">
@@ -78,9 +98,10 @@
         <div class="container">
             <div class="info_content_wrapper">
                 <h1>About Us</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, tempora maiores. Atque nihil aut vero, alias dicta odit voluptatibus reiciendis? Nobis accusamus at tenetur, incidunt laboriosam fugiat eos voluptatum excepturi aut necessitatibus officiis error delectus, facilis repellendus soluta, voluptatibus deserunt beatae explicabo facere quos? Saepe magni dolore rem culpa vero?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ratione qui ab optio fugit maiores architecto aperiam quos eum minus nemo dignissimos sint nisi cumque earum enim, dolorem doloribus ipsam, placeat veniam perferendis totam aut sed voluptates? Ullam velit quod, expedita explicabo aspernatur consequatur magni dignissimos porro sequi esse, laudantium quas atque distinctio nostrum? Reiciendis iusto et placeat recusandae laborum, quibusdam, accusantium fugiat voluptates optio fugit saepe pariatur nobis architecto culpa cum minus, voluptatum nesciunt. Consequuntur dolor aliquam reiciendis ipsam quas consectetur quisquam tenetur ut fuga eligendi dignissimos accusantium itaque numquam incidunt assumenda necessitatibus autem quam sequi, natus cum? Sequi!</p>
-                <a href="" class="btn">Click</a>
+                <p>Rags N’ Wags is a small cottage cattery and dog breeder. We specialize in producing traditional ragdoll kittens and golden retriever pups!  We own a cozy country home in southeast Missouri where our cattery began.  Posey, our mitted queen and Sir Clive, our seal point king, reign supreme in our home as the only Ragdoll couple we own. Their kittens are part of our family and given loads of affection before adoption.  We hope to personally deliver one of our kittens to the right owners soon! We are open to selling in the St. Louis or Chicago area, and anywhere in-between! Kittens may be reserved for $200 each (non-refundable).  Please use our contact form to express your interest and I will respond to you soon!</p>
+                <span>Registered Paperwork</span>
+                <p>I do not give breeding rights on registered paperwork. All kittens are sold on contract and must be ethically altered after 6 months of age before registered paperwork is shared. Breeding rights are possible only if special permission is granted in writing.  Breeding rights cost a minimum of $3000+.  Every legitimate breeder paid for breeding rights and thus the high cost of the kittens who may be breed with registered paperwork.</p>
+                <a href="kittens.html" class="btn">Kittens</a>
             </div>
         </div>
     </section>
@@ -132,16 +153,17 @@
             <h1>The Parents</h1>
             <div class="parents_grid">
                 <div class="parents_left">
-                    <h2>Posie</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus voluptate ex doloremque provident deleniti sit sapiente cum eligendi asperiores esse!</p>
+                    <h2>Posey</h2>
                     <img src="../images/Posie.jpg" alt="">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et debitis a autem veritatis natus consequuntur, dicta, culpa deleniti temporibus molestiae officiis minima? Possimus, nisi. Architecto eveniet temporibus excepturi illo est.</p>
+                    <span>Mitted Blue Point/Bicolor</span>
+                    <p>Posey is stunning! She’s a gorgeous Blue Point Mitted female, with soft bicolor. Everyone who sees Posey marvels at her deep blue eyes and warm appearance.  Posey’s origin is the Sage Mountain cattery in Provo Utah and both her parents were show breeds.  Her dad was sold for $5000 and she seems to “know” she’s special! 
+                    </p>
                 </div>
                 <div class="parents_right">
                     <h2>Clive</h2>   
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sunt voluptatem temporibus, laudantium minima eius odio provident amet asperiores.</p> 
                     <img src="../images/Clive.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consectetur nostrum, possimus iure porro reprehenderit eaque! Quis aliquam unde delectus numquam quibusdam corrupti ab dolores ad eos voluptatibus. Fuga, officiis.</p>
+                    <span>Seal point Lynx</span>
+                    <p>Clive is from the Smoky Mountains of Tennessee where his breeder originated, but moved to Illinois, so Clive in an interstate kitty!  Clive’s mother was a rich Seal Pointed Mink and his father a Cinnamon Pointed King with lots of white body. Clive’s colors are unique, and his soft blue eyes melt everyone he’s close to.  He’s been the best Daddy Ragdoll ever, helping to wash his kittens daily, and he plays and sleeps with all three of his boys!</p>
                 </div>
             </div>
         </div>
