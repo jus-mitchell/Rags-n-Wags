@@ -1,0 +1,42 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4273326, 2021-12-30T16:44:14-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AmoretScript by Set Sail Studios
+ * URL: https://www.myfonts.com/fonts/set-sail-studios/the-amoret-collection/script/
+ * 
+ * Webfont: AmoretScriptAlt by Set Sail Studios
+ * URL: https://www.myfonts.com/fonts/set-sail-studios/the-amoret-collection/script-alt/
+ * 
+ * Webfont: AmoretSans by Set Sail Studios
+ * URL: https://www.myfonts.com/fonts/set-sail-studios/the-amoret-collection/sans/
+ * 
+ * 
+ * Webfonts copyright: Copyright (c) 2018 by Set Sail Studios Ltd. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/4134ae");
+  
+@font-face {
+  font-family: "AmoretScriptAlt";
+  src: url('webFonts/AmoretScriptAlt/font.woff2') format('woff2'), url('webFonts/AmoretScriptAlt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "AmoretScript";
+  src: url('webFonts/AmoretScript/font.woff2') format('woff2'), url('webFonts/AmoretScript/font.woff') format('woff');
+}
+@font-face {
+  font-family: "AmoretSans";
+  src: url('webFonts/AmoretSans/font.woff2') format('woff2'), url('webFonts/AmoretSans/font.woff') format('woff');
+}
+
