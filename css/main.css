@@ -159,6 +159,17 @@ a {
     height: auto;
 }
 
+#hero .btn {
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+#hero .kingpin_logo img {
+    width: 175px;
+    height: 50px;
+    object-fit: fill;
+}
+
 /* Contact */ 
 
 #contact .contact_grid {
