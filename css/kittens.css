@@ -9,6 +9,12 @@ span {
     height: 500px;
 }
 
+.kitten {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
 .kittens_info {
     display: flex;
     flex-direction: column;
@@ -28,7 +34,7 @@ span {
 }
 
 #kitten_1 {
-    padding-top: 50px;
+    padding-top: 10vh;
 }
 
 .kittens_header {
