@@ -5,6 +5,7 @@ span {
 .kittens_grid {
     display: grid;
     grid-gap: 12px;
+    min-width: 750px;
     grid-template-columns: 0.75fr 1fr;
     height: 500px;
 }
@@ -47,6 +48,7 @@ span {
 
     .kittens_grid {
         display: flex;
+        min-width: 90vw;
         flex-direction: column;
         height: auto;
         grid-gap: 50px
