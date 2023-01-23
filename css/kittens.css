@@ -2,6 +2,19 @@ span {
     font-weight: 500;
 }
 
+#no_kittens {
+    height: 300px;
+    padding-top: 200px;
+}
+
+.no_kittens_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 .kittens_grid {
     display: grid;
     grid-gap: 12px;
