@@ -7,6 +7,13 @@ span {
     padding-top: 200px;
 }
 
+#no_kittens img {
+    margin-top: 400px;
+    margin-bottom: 50px;
+    height: 450px;
+    border-radius: 10px;
+}
+
 .no_kittens_wrapper {
     display: flex;
     align-items: center;
