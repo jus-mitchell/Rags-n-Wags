@@ -170,6 +170,31 @@ a {
     object-fit: fill;
 }
 
+/* Reviews */
+
+#reviews .reviews_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#reviews .review {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 500px;
+}
+
+#reviews .name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#reviews .date {
+    font-size: smaller;
+    font-style: italic;
+}
 /* Contact */ 
 
 #contact .contact_grid {
@@ -371,6 +396,12 @@ footer {
 
     #hero .hero_left {
         display: none;
+    }
+
+    /* Mobile Reviews */
+
+    #reviews .review {
+        width: 100%;
     }
 
      /* Mobile Contact */
