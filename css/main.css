@@ -129,6 +129,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 0.75fr;
     grid-gap: 12px;
+    padding-top: 50px;
 }
 
 #hero .hero_left {
@@ -168,6 +169,10 @@ a {
     width: 175px;
     height: 50px;
     object-fit: fill;
+}
+
+#hero #tica_logo {
+    width: 175px;
 }
 
 /* Reviews */
