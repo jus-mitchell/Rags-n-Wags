@@ -5,6 +5,7 @@ span {
 #no_kittens {
     height: 300px;
     padding-top: 200px;
+    margin-bottom: 75vh;
 }
 
 #no_kittens img {
@@ -80,5 +81,9 @@ span {
 
     .kitten {
         margin-bottom: 70px;
+    }
+
+    #no_kittens {
+        margin-bottom: 90vh;
     }
 }
